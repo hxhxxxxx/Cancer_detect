@@ -647,7 +647,7 @@ def train_model():
     print(f'Best validation accuracy: {best_acc:.4f}')
 
     model.load_state_dict(best_model_wts)
-    return model, class_to_idx, idx_to_class
+    return model, class_to_idx, idx_to_class, dataloaders
 
 # --- 7. 添加数据集诊断函数 ---
 def diagnose_dataset(dataset_path):
