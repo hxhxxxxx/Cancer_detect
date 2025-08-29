@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 # --- 1. 配置参数 ---
 # 路径设置
 BASE_DIR = "./lung_cancer_data"
-MODEL_SAVE_PATH = os.path.join(BASE_DIR, "best_model.pth")
+MODEL_SAVE_PATH = os.path.join(BASE_DIR, "829_best_model.pth")
 
 # 本地数据集路径
 LOCAL_DATASET_PATH = "/Users/huangxh/Documents/DMECL/LC25000"
